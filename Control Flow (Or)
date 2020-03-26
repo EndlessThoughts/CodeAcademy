@@ -1,0 +1,11 @@
+statement_one = False or True
+
+statement_two = True or False
+
+def graduation_mailer(gpa, credits):
+  if (gpa >= 2.0) or (credits >= 120):
+    return True
+  else:
+    return False
+  
+print(graduation_mailer(2.0, 120))
