@@ -1,0 +1,15 @@
+statement_one = False
+
+statement_two = True
+
+def graduation_reqs(gpa, credits):
+  #Recall: For "And" they both have to be true in order to return a true value
+  if (gpa >= 2.0) and (credits >= 120):
+    return "You meet the requirements to graduate!"
+  else:
+    return "You do not meet the requirements to graduate."
+
+#Call and print graduation_reqs()
+print(graduation_reqs(0.0, 0))
+print(graduation_reqs(0.0, 120))
+print(graduation_reqs(2.0, 120))
