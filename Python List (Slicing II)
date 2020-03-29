@@ -1,0 +1,9 @@
+suitcase = ['shirt', 'shirt', 'pants', 'pants', 'pajamas', 'books']
+start = suitcase[:3]
+end = suitcase[-2:]
+
+#Prints out shirt, shirt, pants
+print(start)
+
+#Prints out pajamas, books
+print(end)
